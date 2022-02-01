@@ -30,4 +30,4 @@ console.log("My favourite car is " + car1 + " " + "and the model is " + model)
 
 let myTxt = "This could be useful!";
 
-console.log("this is a %c a message with some CSS."+myTxt,"color: orange; font-style:bold; font-family: fantasy; background-color: black;padding: 10px");
+console.log("this is a %c message with some CSS. " +myTxt,"color: orange; font-style:bold; font-family: fantasy; background-color: black;padding: 10px");
