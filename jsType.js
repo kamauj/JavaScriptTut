@@ -77,33 +77,58 @@
 //     }
     
 // }
-//Task 5
+// //Task 5
 
-let now = new Date(); 
-let day = now.getDay();
-console.log(day);
-switch(day)
-{
-    case 1:
-        console.log("Today is Monday");
-        break;
-    case 2:
-        console.log("Today is Tuesday"); 
-        break;
-    case 3:
-        console.log("Today is Wednesday");
-        break;
-    case 4:
-        console.log("Today is Thursday"); 
-        break;
-    case 5:
-        console.log("Today is Friday"); 
-    break;
-    case 6:
-        console.log("Today is Saturday");
-    case 7:
-        console.log("Today is Sunday"); 
+// let now = new Date(); 
+// let day = now.getDay();
+// console.log(day);
+// switch(day)
+// {
+//     case 1:
+//         console.log("Today is Monday");
+//         break;
+//     case 2:
+//         console.log("Today is Tuesday"); 
+//         break;
+//     case 3:
+//         console.log("Today is Wednesday");
+//         break;
+//     case 4:
+//         console.log("Today is Thursday"); 
+//         break;
+//     case 5:
+//         console.log("Today is Friday"); 
+//     break;
+//     case 6:
+//         console.log("Today is Saturday");
+//     case 7:
+//         console.log("Today is Sunday"); 
     
-    default:
-        console.log(`You have not selected a day of the week.`)
+//     default:
+//         console.log(`You have not selected a day of the week.`)
+// }
+
+//Conditionals with Truthy / Falsey
+
+// let strictA = true;
+// let strictB = 1;
+
+// console.log(strictA == strictB);
+// console.log(strictA === strictB);
+// console.log(strictA != strictB);
+// console.log(strictA !== strictB);
+
+let age = 46;
+
+if(age >= 18 && age <=65){
+     console.log(`You're age is ${age} which is in range`)
+} else if (age < 18 )
+{
+    console.log(`Sorry you are underage`)
 }
+
+// if(age > 50){
+//     console.log(`You exceed our range`)
+// }
+
+let a = age > 50 ? console.log(`You exceed our range`):console.log(`You're age is ${age} which is in range`)
