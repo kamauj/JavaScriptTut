@@ -121,7 +121,7 @@
 let age = 46;
 
 if(age >= 18 && age <=65){
-     console.log(`You're age is ${age} which is in range`)
+     console.log(`Your age is ${age} which is in range`)
 } else if (age < 18 )
 {
     console.log(`Sorry you are underage`)
@@ -131,4 +131,4 @@ if(age >= 18 && age <=65){
 //     console.log(`You exceed our range`)
 // }
 
-let a = age > 50 ? console.log(`You exceed our range`):console.log(`You're age is ${age} which is in range`)
+let a = age > 50 ? console.log(`You exceed our range`):console.log(`Your age is ${age} which is in range`)
